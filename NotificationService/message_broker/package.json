@@ -1,0 +1,26 @@
+{
+  "name": "message_broker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.17.2",
+    "consul": "^0.30.0",
+    "eureka-js-client": "^4.3.0",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "jest": {
+    "setupFiles": [
+      "./test-config/setupTests.js",
+      "./test-config/browser-mocks.js"
+    ]
+  }
+}
